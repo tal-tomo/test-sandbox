@@ -1,117 +1,109 @@
-# OneWorld AI Platform — Quick Start Guide
+<div align="center">
 
-A concise onboarding guide for external customers to get up and running with [OneWorld AI](https://www.oneworldai.com).
+# OneWorld AI Platform
 
-## What is OneWorld AI?
+### Your team's shared brain for software engineering
 
-OneWorld AI is the cloud platform where every session, every agent, and every engineer work from the same live context — so your whole company builds from the same brain and never solves the same problem twice.
+[![Website](https://img.shields.io/badge/Website-oneworldai.com-blue?style=flat-square)](https://www.oneworldai.com)
+[![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-green?style=flat-square)](https://docs.oneworldai.com)
 
-Its CLI-based coding agent runs directly in your terminal, helping you write, review, debug, and refactor code through natural language conversations with full access to your local files, git, and shell.
+</div>
 
-Key capabilities:
+---
 
-- **Interactive coding sessions** — chat with the agent to build features, fix bugs, and explore codebases
-- **Non-interactive (exec) mode** — scriptable single-command execution for CI/CD and automation
-- **MCP integrations** — extend the agent with external tools (Figma, databases, APIs, etc.)
-- **Session management** — resume, fork, search, and sync sessions across machines
-- **Knowledge graph** — shared context across agents and engineers in your organization
-- **Cloud sandbox** — develop entirely in the cloud with OneWorld's sandbox environment, enabling developers to code, build, and test from anywhere without local setup
+> **OneWorld AI** is the cloud platform where every session, every agent, and every engineer work from the same live context — so your whole company builds from the same brain and never solves the same problem twice.
 
-## Installation
+## Highlights
+
+| Feature | Description |
+|---------|-------------|
+| **Interactive Sessions** | Chat with the agent to build features, fix bugs, and explore codebases |
+| **Exec Mode** | Scriptable single-command execution for CI/CD and automation |
+| **MCP Integrations** | Extend the agent with external tools (Figma, databases, APIs, etc.) |
+| **Session Management** | Resume, fork, search, and sync sessions across machines |
+| **Knowledge Graph** | Shared context across agents and engineers in your organization |
+| **Cloud Sandbox** | Code, build, and test from anywhere without local setup |
+
+---
+
+## Getting Started
 
 ### Prerequisites
 
 - Git 2.x+
-- A OneWorld AI account — sign up at [oneworldai.com](https://www.oneworldai.com)
+- A OneWorld AI account — [sign up here](https://www.oneworldai.com)
 
-### Install the CLI
+### Install
 
-Visit [docs.oneworldai.com](https://docs.oneworldai.com/cli/getting-started/overview) for platform-specific installation instructions.
+> Visit [docs.oneworldai.com](https://docs.oneworldai.com/cli/getting-started/overview) for platform-specific instructions.
 
-### Authenticate
-
-```bash
-oneworld login
-```
-
-Follow the prompts to log in and save your CLI credentials locally.
-
-### Verify
+### Authenticate & Verify
 
 ```bash
-oneworld --version
+oneworld login       # follow the prompts to save credentials
+oneworld --version   # confirm installation
 ```
 
-## Basic Usage
+---
 
-### Start an Interactive Session
+## Usage
+
+### Interactive Mode
 
 ```bash
-oneworld
+oneworld                                        # launch the agent
+oneworld "review app.tsx and suggest improvements"  # start with a prompt
 ```
 
-This launches the agent in interactive mode. You can type natural language prompts and the agent will read files, write code, run commands, and more.
-
-You can also start with an initial prompt:
-
-```bash
-oneworld "review app.tsx and suggest improvements"
-```
-
-### Run a Single Command (Non-Interactive)
-
-For scripting and automation, use `exec` mode:
+### Exec Mode (Non-Interactive)
 
 ```bash
 oneworld exec "analyze this file and list all TODO comments"
+oneworld exec - < prompt.txt                    # pipe from file
 ```
 
-You can also pipe input from a file:
+### Session Management
 
 ```bash
-oneworld exec - < prompt.txt
-```
-
-### Resume a Previous Session
-
-```bash
-oneworld --resume            # resume the most recent session
-oneworld --resume <sessionId> # resume a specific session
-```
-
-### Search Past Sessions
-
-```bash
+oneworld --resume              # resume most recent session
+oneworld --resume <sessionId>  # resume a specific session
 oneworld search "database migration"
 ```
 
-### Update the CLI
+### Update
 
 ```bash
 oneworld update
 ```
 
-## Adding MCP Integrations
+---
 
-Extend the agent with external tool servers using the MCP (Model Context Protocol) system:
+## MCP Integrations
+
+Extend the agent with external tool servers:
 
 ```bash
 oneworld mcp add <name> <url-or-command>
+oneworld mcp remove <name>
 ```
 
-Example — add the Figma integration:
+**Example** — add Figma:
 
 ```bash
 oneworld mcp add figma https://mcp.figma.com/mcp --type http
 ```
 
-Remove an integration:
+---
 
-```bash
-oneworld mcp remove <name>
-```
+## Resources
 
-## Further Resources
+| | Link |
+|---|---|
+| Documentation | [docs.oneworldai.com](https://docs.oneworldai.com) |
+| CLI Overview | [Getting Started](https://docs.oneworldai.com/cli/getting-started/overview) |
 
-- Official documentation: [docs.oneworldai.com](https://docs.oneworldai.com)
-- CLI overview: [docs.oneworldai.com/cli/getting-started/overview](https://docs.oneworldai.com/cli/getting-started/overview)
+---
+
+<div align="center">
+<sub>Built with care by the OneWorld AI team</sub>
+</div>
