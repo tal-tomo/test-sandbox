@@ -11,6 +11,13 @@
 
 ---
 
+- **Interactive coding sessions** — chat with the agent to build features, fix bugs, and explore codebases
+- **Non-interactive (exec) mode** — scriptable single-command execution for CI/CD and automation
+- **MCP integrations** — extend the agent with external tools (Figma, databases, APIs, etc.)
+- **Session management** — resume, fork, search, and sync sessions across machines
+- **Knowledge graph** — shared context across agents and engineers in your organization
+- **File uploads** — upload images, videos, and other files directly within a session to provide visual context, enabling the agent to analyze screenshots, UI mockups, error recordings, and more
+- **Cloud sandbox** — develop entirely in the cloud with OneWorld's sandbox environment, enabling developers to code, build, and test from anywhere without local setup
 > **OneWorld AI** is the cloud platform where every session, every agent, and every engineer work from the same live context — so your whole company builds from the same brain and never solves the same problem twice.
 
 ## Highlights
