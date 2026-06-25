@@ -1,10 +1,12 @@
 # OneWorld AI Platform — Quick Start Guide
 
-A concise onboarding guide for external customers to get up and running with the OneWorld AI coding agent.
+A concise onboarding guide for external customers to get up and running with [OneWorld AI](https://www.oneworldai.com).
 
 ## What is OneWorld AI?
 
-OneWorld AI is an AI-powered coding agent that runs directly in your terminal. It helps you write, review, debug, and refactor code through natural language conversations — with full access to your local files, git, and shell.
+OneWorld AI is the cloud platform where every session, every agent, and every engineer work from the same live context — so your whole company builds from the same brain and never solves the same problem twice.
+
+Its CLI-based coding agent runs directly in your terminal, helping you write, review, debug, and refactor code through natural language conversations with full access to your local files, git, and shell.
 
 Key capabilities:
 
@@ -12,19 +14,18 @@ Key capabilities:
 - **Non-interactive (exec) mode** — scriptable single-command execution for CI/CD and automation
 - **MCP integrations** — extend the agent with external tools (Figma, databases, APIs, etc.)
 - **Session management** — resume, fork, search, and sync sessions across machines
+- **Knowledge graph** — shared context across agents and engineers in your organization
 
 ## Installation
 
 ### Prerequisites
 
-- Node.js 18+ (LTS recommended)
 - Git 2.x+
+- A OneWorld AI account — sign up at [oneworldai.com](https://www.oneworldai.com)
 
-### Install via npm
+### Install the CLI
 
-```bash
-npm install -g @anthropic-ai/oneworld
-```
+Visit [docs.oneworldai.com](https://docs.oneworldai.com/cli/getting-started/overview) for platform-specific installation instructions.
 
 ### Authenticate
 
