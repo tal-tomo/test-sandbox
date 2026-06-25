@@ -1,44 +1,42 @@
 <div align="center">
 
-# OneWorld AI Platform
+# 🌐 OneWorld AI Platform
 
-### Your team's shared brain for software engineering
+**Your team's shared brain for software engineering**
 
-[![Website](https://img.shields.io/badge/Website-oneworldai.com-blue?style=flat-square)](https://www.oneworldai.com)
-[![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-green?style=flat-square)](https://docs.oneworldai.com)
+[![Website](https://img.shields.io/badge/Website-oneworldai.com-0969da?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.oneworldai.com)
+[![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-2da44e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.oneworldai.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
+
+<br />
+
+> Every session, every agent, and every engineer work from the same live context —
+> so your whole company builds from the same brain and never solves the same problem twice.
 
 </div>
 
----
+<br />
 
-- **Interactive coding sessions** — chat with the agent to build features, fix bugs, and explore codebases
-- **Non-interactive (exec) mode** — scriptable single-command execution for CI/CD and automation
-- **MCP integrations** — extend the agent with external tools (Figma, databases, APIs, etc.)
-- **Session management** — resume, fork, search, and sync sessions across machines
-- **Knowledge graph** — shared context across agents and engineers in your organization
-- **File uploads** — upload images, videos, and other files directly within a session to provide visual context, enabling the agent to analyze screenshots, UI mockups, error recordings, and more
-- **Cloud sandbox** — develop entirely in the cloud with OneWorld's sandbox environment, enabling developers to code, build, and test from anywhere without local setup
-> **OneWorld AI** is the cloud platform where every session, every agent, and every engineer work from the same live context — so your whole company builds from the same brain and never solves the same problem twice.
-
-## Highlights
+## ✨ Highlights
 
 | Feature | Description |
-|---------|-------------|
-| **Interactive Sessions** | Chat with the agent to build features, fix bugs, and explore codebases |
-| **Exec Mode** | Scriptable single-command execution for CI/CD and automation |
-| **MCP Integrations** | Extend the agent with external tools (Figma, databases, APIs, etc.) |
-| **Session Management** | Resume, fork, search, and sync sessions across machines |
-| **Knowledge Graph** | Shared context across agents and engineers in your organization |
-| **Cloud Sandbox** | Code, build, and test from anywhere without local setup |
+|:--------|:------------|
+| 💬 **Interactive Sessions** | Chat with the agent to build features, fix bugs, and explore codebases |
+| ⚡ **Exec Mode** | Scriptable single-command execution for CI/CD and automation |
+| 🔌 **MCP Integrations** | Extend the agent with external tools — Figma, databases, APIs, and more |
+| 🔄 **Session Management** | Resume, fork, search, and sync sessions across machines |
+| 🧠 **Knowledge Graph** | Shared context across agents and engineers in your organization |
+| 📎 **File Uploads** | Upload images, videos, and files to provide visual context for the agent |
+| ☁️ **Cloud Sandbox** | Code, build, and test from anywhere — no local setup required |
 
----
+<br />
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Git 2.x+
-- A OneWorld AI account — [sign up here](https://www.oneworldai.com)
+- **Git** 2.x+
+- A **OneWorld AI** account — [sign up here](https://www.oneworldai.com)
 
 ### Install
 
@@ -51,14 +49,14 @@ oneworld login       # follow the prompts to save credentials
 oneworld --version   # confirm installation
 ```
 
----
+<br />
 
-## Usage
+## 📖 Usage
 
 ### Interactive Mode
 
 ```bash
-oneworld                                        # launch the agent
+oneworld                                            # launch the agent
 oneworld "review app.tsx and suggest improvements"  # start with a prompt
 ```
 
@@ -66,7 +64,7 @@ oneworld "review app.tsx and suggest improvements"  # start with a prompt
 
 ```bash
 oneworld exec "analyze this file and list all TODO comments"
-oneworld exec - < prompt.txt                    # pipe from file
+oneworld exec - < prompt.txt                        # pipe from file
 ```
 
 ### Session Management
@@ -83,9 +81,9 @@ oneworld search "database migration"
 oneworld update
 ```
 
----
+<br />
 
-## MCP Integrations
+## 🔌 MCP Integrations
 
 Extend the agent with external tool servers:
 
@@ -94,23 +92,35 @@ oneworld mcp add <name> <url-or-command>
 oneworld mcp remove <name>
 ```
 
-**Example** — add Figma:
+**Example** — add Figma integration:
 
 ```bash
 oneworld mcp add figma https://mcp.figma.com/mcp --type http
 ```
 
----
+<br />
 
-## Resources
+## 📚 Resources
 
-| | Link |
-|---|---|
-| Documentation | [docs.oneworldai.com](https://docs.oneworldai.com) |
-| CLI Overview | [Getting Started](https://docs.oneworldai.com/cli/getting-started/overview) |
+<table>
+  <tr>
+    <td>📄 Documentation</td>
+    <td><a href="https://docs.oneworldai.com">docs.oneworldai.com</a></td>
+  </tr>
+  <tr>
+    <td>🏁 CLI Overview</td>
+    <td><a href="https://docs.oneworldai.com/cli/getting-started/overview">Getting Started</a></td>
+  </tr>
+</table>
+
+<br />
+
+## 📝 License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
 
 <div align="center">
-<sub>Built with care by the OneWorld AI team</sub>
+<sub>Built with ❤️ by the <a href="https://www.oneworldai.com">OneWorld AI</a> team</sub>
 </div>
