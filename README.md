@@ -15,6 +15,7 @@ Key capabilities:
 - **MCP integrations** — extend the agent with external tools (Figma, databases, APIs, etc.)
 - **Session management** — resume, fork, search, and sync sessions across machines
 - **Knowledge graph** — shared context across agents and engineers in your organization
+- **Cloud sandbox** — develop entirely in the cloud with OneWorld's sandbox environment, enabling developers to code, build, and test from anywhere without local setup
 
 ## Installation
 
