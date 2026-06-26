@@ -2,7 +2,7 @@
 
 # 🌐 OneWorld AI Platform
 
-**Your team's shared brain for software engineering**
+**AI 驱动的命令行编程助手 —— 通过交互式对话帮助你编写代码、修复 Bug、审查变更和探索代码库**
 
 [![Website](https://img.shields.io/badge/Website-oneworldai.com-0969da?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.oneworldai.com)
 [![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-2da44e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.oneworldai.com)
@@ -10,8 +10,8 @@
 
 <br />
 
-> Every session, every agent, and every engineer work from the same live context —
-> so your whole company builds from the same brain and never solves the same problem twice.
+> OneWorld AI 是一个运行在终端中的 AI 软件工程代理。它能理解你的整个代码仓库上下文，
+> 并在团队中共享知识图谱，让每位工程师和 AI 代理都基于同一份实时上下文协作，避免重复劳动。
 
 </div>
 
