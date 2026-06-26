@@ -29,6 +29,7 @@
 | 🧠 **Knowledge Graph** | Shared context across agents and engineers in your organization |
 | 📎 **File Uploads** | Upload images, videos, and files to provide visual context for the agent |
 | ☁️ **Cloud Sandbox** | Code, build, and test from anywhere — no local setup required |
+| 👥 **Cloud Team Collaboration** | Real-time collaboration across distributed teams — share context, sync progress, and co-develop in the cloud |
 
 <br />
 
