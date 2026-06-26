@@ -31,6 +31,7 @@
 | ☁️ **Cloud Sandbox** | Code, build, and test from anywhere — no local setup required |
 | 👥 **Cloud Team Collaboration** | Real-time collaboration across distributed teams — share context, sync progress, and co-develop in the cloud |
 | 🔗 **Team Session Sharing** | Share sessions with your team — let members view, continue, or collaborate on any session together |
+| 💰 **USD1 Crypto Payments** | Pay with USD1 stablecoin — fast, secure cryptocurrency payments for subscriptions and services |
 
 <br />
 
