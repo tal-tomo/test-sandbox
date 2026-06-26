@@ -30,6 +30,7 @@
 | 📎 **File Uploads** | Upload images, videos, and files to provide visual context for the agent |
 | ☁️ **Cloud Sandbox** | Code, build, and test from anywhere — no local setup required |
 | 👥 **Cloud Team Collaboration** | Real-time collaboration across distributed teams — share context, sync progress, and co-develop in the cloud |
+| 🔗 **Team Session Sharing** | Share sessions with your team — let members view, continue, or collaborate on any session together |
 
 <br />
 
