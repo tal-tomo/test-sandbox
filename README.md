@@ -1,77 +1,117 @@
 <div align="center">
 
-# 🌐 OneWorld AI Platform
+<br />
 
-**Your team's shared brain for software engineering**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/%E2%9C%A6_OneWorld_AI-Platform-58a6ff?style=for-the-badge&labelColor=1f2328">
+  <img src="https://img.shields.io/badge/%E2%9C%A6_OneWorld_AI-Platform-0969da?style=for-the-badge&labelColor=f6f8fa" alt="OneWorld AI" />
+</picture>
 
-[![Website](https://img.shields.io/badge/Website-oneworldai.com-0969da?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.oneworldai.com)
-[![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-2da44e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.oneworldai.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
+<br /><br />
+
+<h1>OneWorld AI</h1>
+
+<h4>Your team's shared brain for software engineering</h4>
 
 <br />
 
-> OneWorld AI is an AI software engineering agent that runs in your terminal. It understands your entire
-> codebase context and shares a knowledge graph across your team, so every engineer and agent collaborates
-> from the same live context — never solving the same problem twice.
+<a href="https://www.oneworldai.com"><img src="https://img.shields.io/badge/Website-oneworldai.com-0969da?style=flat-square&logo=google-chrome&logoColor=white" alt="Website" /></a>
+<a href="https://docs.oneworldai.com"><img src="https://img.shields.io/badge/Docs-docs.oneworldai.com-2da44e?style=flat-square&logo=readthedocs&logoColor=white" alt="Docs" /></a>
+<a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License: MIT" /></a>
+
+<br /><br />
+
+<p>
+  <em>An AI software engineering agent that runs in your terminal.<br/>
+  It understands your entire codebase and shares a knowledge graph across your team,<br/>
+  so every engineer and agent collaborates from the same live context —<br/>
+  never solving the same problem twice.</em>
+</p>
+
+<br />
 
 </div>
 
-<br />
-
-## ✨ Highlights
-
-| Feature | Description |
-|:--------|:------------|
-| 💬 **Interactive Sessions** | Chat with the agent to build features, fix bugs, and explore codebases |
-| ⚡ **Exec Mode** | Scriptable single-command execution for CI/CD and automation |
-| 🔌 **MCP Integrations** | Extend the agent with external tools — Figma, databases, APIs, and more |
-| 🔄 **Session Management** | Resume, fork, search, and sync sessions across machines |
-| 🧠 **Knowledge Graph** | Shared context across agents and engineers in your organization |
-| 📎 **File Uploads** | Upload images, videos, and files to provide visual context for the agent |
-| ☁️ **Cloud Sandbox** | Code, build, and test from anywhere — no local setup required |
-| 👥 **Cloud Team Collaboration** | Real-time collaboration across distributed teams — share context, sync progress, and co-develop in the cloud |
-| 🔗 **Team Session Sharing** | Share sessions with your team — let members view, continue, or collaborate on any session together |
-| 💰 **USD1 Crypto Payments** | Pay with USD1 stablecoin — fast, secure cryptocurrency payments for subscriptions and services |
+---
 
 <br />
 
-## 🚀 Getting Started
+## Highlights
 
-### Prerequisites
+<table>
+  <tr>
+    <th align="left" width="50%">Core</th>
+    <th align="left" width="50%">Cloud & Payments</th>
+  </tr>
+  <tr>
+    <td valign="top">
 
-- **Git** 2.x+
-- A **OneWorld AI** account — [sign up here](https://www.oneworldai.com)
+| | |
+|:--|:--|
+| **Interactive Sessions** | Build features, fix bugs, explore codebases |
+| **Exec Mode** | Scriptable execution for CI/CD pipelines |
+| **MCP Integrations** | Figma, databases, APIs, and more |
+| **Session Management** | Resume, fork, search, sync across machines |
+| **Knowledge Graph** | Shared context for your entire org |
 
-### Install
+  </td>
+    <td valign="top">
 
-> Visit [docs.oneworldai.com](https://docs.oneworldai.com/cli/getting-started/overview) for platform-specific instructions.
+| | |
+|:--|:--|
+| **File Uploads** | Images, videos, and files for visual context |
+| **Cloud Sandbox** | Code, build, and test — no local setup |
+| **Team Collaboration** | Real-time across distributed teams |
+| **Session Sharing** | View, continue, or co-develop any session |
+| **USD1 Payments** | Fast, secure stablecoin transactions |
 
-### Authenticate & Verify
+  </td>
+  </tr>
+</table>
+
+<br />
+
+## Getting Started
 
 ```bash
-oneworld login       # follow the prompts to save credentials
-oneworld --version   # confirm installation
+# 1. Install (see docs for platform-specific steps)
+# https://docs.oneworldai.com/cli/getting-started/overview
+
+# 2. Authenticate
+oneworld login
+
+# 3. Verify
+oneworld --version
 ```
+
+> **Prerequisites:** Git 2.x+ and a [OneWorld AI account](https://www.oneworldai.com)
 
 <br />
 
-## 📖 Usage
+## Usage
 
-### Interactive Mode
+<details open>
+<summary><strong>Interactive Mode</strong></summary>
 
 ```bash
 oneworld                                            # launch the agent
 oneworld "review app.tsx and suggest improvements"  # start with a prompt
 ```
 
-### Exec Mode (Non-Interactive)
+</details>
+
+<details>
+<summary><strong>Exec Mode</strong> — non-interactive, CI/CD friendly</summary>
 
 ```bash
 oneworld exec "analyze this file and list all TODO comments"
 oneworld exec - < prompt.txt                        # pipe from file
 ```
 
-### Session Management
+</details>
+
+<details>
+<summary><strong>Session Management</strong></summary>
 
 ```bash
 oneworld --resume              # resume most recent session
@@ -79,15 +119,20 @@ oneworld --resume <sessionId>  # resume a specific session
 oneworld search "database migration"
 ```
 
-### Update
+</details>
+
+<details>
+<summary><strong>Update</strong></summary>
 
 ```bash
 oneworld update
 ```
 
+</details>
+
 <br />
 
-## 🔌 MCP Integrations
+## MCP Integrations
 
 Extend the agent with external tool servers:
 
@@ -96,35 +141,38 @@ oneworld mcp add <name> <url-or-command>
 oneworld mcp remove <name>
 ```
 
-**Example** — add Figma integration:
+<details>
+<summary><strong>Example:</strong> Add Figma integration</summary>
 
 ```bash
 oneworld mcp add figma https://mcp.figma.com/mcp --type http
 ```
 
-<br />
-
-## 📚 Resources
-
-<table>
-  <tr>
-    <td>📄 Documentation</td>
-    <td><a href="https://docs.oneworldai.com">docs.oneworldai.com</a></td>
-  </tr>
-  <tr>
-    <td>🏁 CLI Overview</td>
-    <td><a href="https://docs.oneworldai.com/cli/getting-started/overview">Getting Started</a></td>
-  </tr>
-</table>
+</details>
 
 <br />
 
-## 📝 License
+## Resources
 
-This project is licensed under the [MIT License](./LICENSE).
+<div align="center">
+
+| | |
+|:--|:--|
+| Documentation | **[docs.oneworldai.com](https://docs.oneworldai.com)** |
+| CLI Overview | **[Getting Started Guide](https://docs.oneworldai.com/cli/getting-started/overview)** |
+
+</div>
+
+<br />
+
+## License
+
+Licensed under the [MIT License](./LICENSE).
 
 ---
 
 <div align="center">
-<sub>Built with ❤️ by the <a href="https://www.oneworldai.com">OneWorld AI</a> team</sub>
+<br />
+<sub>Built with care by the <a href="https://www.oneworldai.com">OneWorld AI</a> team — powering the future of collaborative engineering</sub>
+<br /><br />
 </div>
