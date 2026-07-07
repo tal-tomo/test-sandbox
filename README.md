@@ -173,6 +173,6 @@ Licensed under the [MIT License](./LICENSE).
 
 <div align="center">
 <br />
-<sub>Built with care by the <a href="https://www.oneworldai.com">OneWorld AI</a> team</sub>
+<sub>Built with care by the <a href="https://www.oneworldai.com">OneWorld AI</a> team — powering the future of collaborative engineering</sub>
 <br /><br />
 </div>
