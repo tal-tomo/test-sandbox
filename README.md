@@ -1,41 +1,71 @@
 <div align="center">
 
-# 🌐 OneWorld AI Platform
+<img src="https://img.shields.io/badge/OneWorld_AI-Platform-0969da?style=for-the-badge&logo=globe&logoColor=white" alt="OneWorld AI" />
 
-**Your team's shared brain for software engineering**
+<br /><br />
 
-[![Website](https://img.shields.io/badge/Website-oneworldai.com-0969da?style=for-the-badge&logo=google-chrome&logoColor=white)](https://www.oneworldai.com)
-[![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-2da44e?style=for-the-badge&logo=readthedocs&logoColor=white)](https://docs.oneworldai.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
+# OneWorld AI
+
+### Your team's shared brain for software engineering
 
 <br />
 
-> OneWorld AI is an AI software engineering agent that runs in your terminal. It understands your entire
-> codebase context and shares a knowledge graph across your team, so every engineer and agent collaborates
-> from the same live context — never solving the same problem twice.
+[![Website](https://img.shields.io/badge/Website-oneworldai.com-0969da?style=flat-square&logo=google-chrome&logoColor=white)](https://www.oneworldai.com)
+[![Docs](https://img.shields.io/badge/Docs-docs.oneworldai.com-2da44e?style=flat-square&logo=readthedocs&logoColor=white)](https://docs.oneworldai.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](./LICENSE)
+
+<br />
+
+<p align="center">
+  <i>An AI software engineering agent that runs in your terminal.<br/>
+  It understands your entire codebase and shares a knowledge graph across your team,<br/>
+  so every engineer and agent collaborates from the same live context — never solving the same problem twice.</i>
+</p>
+
+<br />
+
+---
 
 </div>
 
 <br />
 
-## ✨ Highlights
+## Highlights
 
-| Feature | Description |
-|:--------|:------------|
-| 💬 **Interactive Sessions** | Chat with the agent to build features, fix bugs, and explore codebases |
-| ⚡ **Exec Mode** | Scriptable single-command execution for CI/CD and automation |
-| 🔌 **MCP Integrations** | Extend the agent with external tools — Figma, databases, APIs, and more |
-| 🔄 **Session Management** | Resume, fork, search, and sync sessions across machines |
-| 🧠 **Knowledge Graph** | Shared context across agents and engineers in your organization |
-| 📎 **File Uploads** | Upload images, videos, and files to provide visual context for the agent |
-| ☁️ **Cloud Sandbox** | Code, build, and test from anywhere — no local setup required |
-| 👥 **Cloud Team Collaboration** | Real-time collaboration across distributed teams — share context, sync progress, and co-develop in the cloud |
-| 🔗 **Team Session Sharing** | Share sessions with your team — let members view, continue, or collaborate on any session together |
-| 💰 **USD1 Crypto Payments** | Pay with USD1 stablecoin — fast, secure cryptocurrency payments for subscriptions and services |
+<table>
+  <tr>
+    <td width="50%">
+
+**Interactive Sessions** — Chat with the agent to build features, fix bugs, and explore codebases
+
+**Exec Mode** — Scriptable single-command execution for CI/CD and automation
+
+**MCP Integrations** — Extend the agent with external tools: Figma, databases, APIs, and more
+
+**Session Management** — Resume, fork, search, and sync sessions across machines
+
+**Knowledge Graph** — Shared context across agents and engineers in your organization
+
+  </td>
+    <td width="50%">
+
+**File Uploads** — Upload images, videos, and files to provide visual context
+
+**Cloud Sandbox** — Code, build, and test from anywhere with no local setup
+
+**Team Collaboration** — Real-time collaboration across distributed teams
+
+**Session Sharing** — Let team members view, continue, or collaborate on any session
+
+**USD1 Crypto Payments** — Fast, secure stablecoin payments for subscriptions and services
+
+  </td>
+  </tr>
+</table>
 
 <br />
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -55,23 +85,33 @@ oneworld --version   # confirm installation
 
 <br />
 
-## 📖 Usage
+## Usage
 
-### Interactive Mode
+<details>
+<summary><b>Interactive Mode</b></summary>
+<br />
 
 ```bash
 oneworld                                            # launch the agent
 oneworld "review app.tsx and suggest improvements"  # start with a prompt
 ```
 
-### Exec Mode (Non-Interactive)
+</details>
+
+<details>
+<summary><b>Exec Mode (Non-Interactive)</b></summary>
+<br />
 
 ```bash
 oneworld exec "analyze this file and list all TODO comments"
 oneworld exec - < prompt.txt                        # pipe from file
 ```
 
-### Session Management
+</details>
+
+<details>
+<summary><b>Session Management</b></summary>
+<br />
 
 ```bash
 oneworld --resume              # resume most recent session
@@ -79,15 +119,21 @@ oneworld --resume <sessionId>  # resume a specific session
 oneworld search "database migration"
 ```
 
-### Update
+</details>
+
+<details>
+<summary><b>Update</b></summary>
+<br />
 
 ```bash
 oneworld update
 ```
 
+</details>
+
 <br />
 
-## 🔌 MCP Integrations
+## MCP Integrations
 
 Extend the agent with external tool servers:
 
@@ -104,27 +150,23 @@ oneworld mcp add figma https://mcp.figma.com/mcp --type http
 
 <br />
 
-## 📚 Resources
+## Resources
 
-<table>
-  <tr>
-    <td>📄 Documentation</td>
-    <td><a href="https://docs.oneworldai.com">docs.oneworldai.com</a></td>
-  </tr>
-  <tr>
-    <td>🏁 CLI Overview</td>
-    <td><a href="https://docs.oneworldai.com/cli/getting-started/overview">Getting Started</a></td>
-  </tr>
-</table>
+| | |
+|:--|:--|
+| Documentation | [docs.oneworldai.com](https://docs.oneworldai.com) |
+| CLI Overview | [Getting Started](https://docs.oneworldai.com/cli/getting-started/overview) |
 
 <br />
 
-## 📝 License
+## License
 
 This project is licensed under the [MIT License](./LICENSE).
+
+<br />
 
 ---
 
 <div align="center">
-<sub>Built with ❤️ by the <a href="https://www.oneworldai.com">OneWorld AI</a> team</sub>
+<sub>Built with care by the <a href="https://www.oneworldai.com">OneWorld AI</a> team</sub>
 </div>
